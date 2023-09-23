@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+    
+    <div class="first">
+        <p id="p-name">awaisali</p>
+        <img src="./images/pattern-rings.svg" alt="" id="image-ring">
+        <div class="intro">
+            <p id="intro-name">Nice to meet you! I'm <span>Awais Ali</span>.</p>
+            <p id="intro-field">Based in the Pakistan, I’m a front-end developer passionate about building accessible web apps that users love.</p>
+        </div>
+    
+        <img src="./images/pattern-circle.svg" alt="" id="circle">
+        <p id="contact">CONTACT ME</p>
+        
+        <div class="profile-section">
+           <div class="icons">
+                <img src="./images/icon-github.svg" alt="" id="git">
+                <img src="./images/icon-frontend-mentor.svg" alt="" id="mentor1">
+                <img src="./images/icon-linkedin.svg" alt="" id="linked">
+                <img src="./images/icon-twitter.svg" alt="" id="twitter">
+            </div>
+            <img src="./images/image-profile-desktop.webp" alt="" id="profile-image">
+        </div>
+    </div>
+    <!-- White line -->
+    <div class="midline"></div>
+    <!-- Experience Field -->
+    <div class="secondPart">
+        <div class="ringclass">
+            <img src="./images/pattern-rings.svg" alt="" id="ring2">
+        </div>
+        <div class="html">
+            <!-- <img src="./images/pattern-rings.svg" alt="" class="ring2"> -->
+            <p>HTML</p>
+            <span>1 Year Experience</span>
+        </div>
+        <div class="css">
+            <p>CSS</p>
+            <span>1 Year Experience</span>
+        </div>
+        <div class="javascript">
+            <p>Javascript</p>
+            <span>6 Months Experience</span>
+        </div>
+        <div class="access">
+            <p>Accessibility</p>
+            <span>2 Months Experience</span>
+        </div>
+        <div class="react">
+            <p>React</p>
+            <span>1 Month Experience</span>
+        </div>
+        <div class="sass">
+            <p>Saas</p>
+            <span>0 Month Experience</span>
+        </div>
+    </div>
+
+    <!-- Projects -->
+
+    <div class="projects">
+        <div class="context">
+            <p id="proText">Projects</p>
+            <p id="contactMe">Contact Me</p>
+        </div>
+        <div class="projectImages">
+            <div>
+                <img src="./images/thumbnail-project-1-large.webp" alt="">
+                <p class="projectNames">Design Portfolio</p>
+                <p class="language">HTML CSS</p>
+            </div>
+            <div>
+                <img src="./images/thumbnail-project-2-large.webp" alt="">
+                <p class="projectNames">E-Learning landing page</p>
+                <p class="language">HTML CSS JAVASCRIPT</p>
+            </div>
+            <div class="topMargin">
+                <img src="./images/thumbnail-project-3-large.webp" alt="">
+                <p class="projectNames">TODO WEB APP</p>
+                <p class="language">HTML CSS JAVASCRIPT</p>
+            </div>
+
+            <div class="topMargin">
+            <img src="./images/thumbnail-project-4-large.webp" alt="">
+            <p class="projectNames">ENTERTAINMENT WEB APP</p>
+            <p class="language">HTML CSS JAVASCRIPT</p>
+            </div>
+            <div class="topMargin">
+            <img src="./images/thumbnail-project-5-large.webp" alt="">
+            <p class="projectNames">MEMORY GAME</p>
+            <p class="language">HTML CSS JAVASCRIPT</p>
+            </div>
+            <div class="topMargin">
+            <img src="./images/thumbnail-project-6-large.webp" alt="">
+            <p class="projectNames">ART GALLERY SHOWCASE</p>
+            <p class="language">HTML CSS JAVASCRIPT</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <section class="contact">
+            <p id="contact1">Contact</p>
+            <p id="textContact">I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>
+        </section>
+        <div class="fields">
+            <section class="fname">
+                <input type="name" placeholder="Name" id="fName">
+                <span class="error" id="Error1"></span>
+            </section>
+            <section class="femail">
+                <input type="email" placeholder="E-mail" id="fEmail">
+                <span class="error" id="Error2"></span>
+            </section>
+            <section class="fmessage">
+                <input type="text" placeholder="Message" id="fMessage">
+                <span class="error" id="Error3"></span>
+            </section>
+            <section class="button1">
+                <button onclick="validateInputs()">Send Message</button>
+            </section>
+        </div>
+        <img src="./images/pattern-rings.svg" alt="" class="ringsFooter">
+        <div class="footerLine"></div>
+        <div class="nameIcons">
+            <section class="lastName">
+                <p style="background-color: transparent;">awaisali</p>
+            </section>
+            <section class="lastImages" style="background-color: transparent;">
+                <img src="./images/icon-github.svg" alt="" >
+                <img src="./images/icon-frontend-mentor.svg" alt="">
+                <img src="./images/icon-linkedin.svg" alt="">
+                <img src="./images/icon-twitter.svg" alt="">
+            </section>
+        </div>
+    </footer>
+    <script>
+        function validateInputs(){
+            let value1 = document.getElementById("fName").value;
+            let value2 = document.getElementById("fEmail").value;
+            let value3 = document.getElementById("fMessage").value;
+
+            let error1 = document.getElementById("Error1");
+            let error2 = document.getElementById("Error2");
+            let error3 = document.getElementById("Error3");
+
+            error1.textContent = "";
+            error2.textContent = "";
+            error3.textContent = "";
+
+            if (value1.trim() === "") {
+                error1.textContent = "Please enter your name!";
+            }
+            if (value2.trim() === "") {
+                error2.textContent = "Please enter your email!";
+            }
+            if (value3.trim() === "") {
+                error3.textContent = "Please give detail about project!";
+            }
+        }
+    </script>
+</body>
+</html>

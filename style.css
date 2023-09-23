@@ -1,0 +1,490 @@
+*{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* First Part */
+#p-name{
+    font-family: 'Space Grotesk';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.444px;
+    margin: 39px 0 0 165px;
+}
+
+#image-ring{
+    width: 530px;
+    height: 129px;
+    margin: 62px 0px 0px -100px;
+}
+
+/* Introduction */
+.intro{
+    width: 706px;
+    height: 303px;
+    position: absolute;
+    top: 198px;
+    left: 165px;
+    background-color: transparent;
+    
+    
+    
+}
+
+#intro-name{
+    background-color: transparent;
+    font-family: 'Space Grotesk';
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: -2.5px;
+}
+
+#intro-name span{
+    text-decoration-line: underline;
+    text-decoration-color: #4EE1A0;
+    
+}
+
+#intro-field{
+    background-color: transparent;
+    width: 445px;
+    height: 84px;
+    color: #D9D9D9;
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 48px;
+    margin-bottom: 0px;
+}
+
+.profile-section{
+    
+    width: 445px;
+    height: 720px;
+    /* border: 1px solid red; */
+    margin: -265px 165px 0px 830px;
+    background-color: #242424;
+    
+}
+
+#profile-image{
+    width: 444.87607px;
+    height: 618px;
+    padding-top: 23%;
+    background-color: #242424;
+}
+
+#circle{
+    position: absolute;
+    width: 129px;
+    height: 129px;
+    background-color: transparent;
+    margin: 480px 545px 0px 335px;
+}
+
+/* #git, #linked, #twitter, #mentor1{
+    background-color: transparent;
+    margin-left: 50px;
+} */
+
+.icons{
+    position: absolute;
+    background-color: transparent;
+    width: 192.49237px;
+    height: 25px;
+    margin-left: 223px;
+    margin-right: 29.51px;
+    margin-top: 43px;
+}
+
+.icons img{
+    padding: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#contact{
+    position: absolute;
+    width: 117px;
+    height: 26px;
+    color: #4EE1A0;
+    font-family: 'Space Grotesk';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; 
+    letter-spacing: 2.286px;
+    margin-top: 310px;
+    margin-left: 165px; 
+    border-bottom: 2px solid #4EE1A0; 
+    
+    
+}
+
+/* SecondPart */
+
+.midline{
+    width: 1110px;    
+    height: 1px;
+    background: white;
+    margin-left: 165px;
+    margin-top: 100px;
+}
+
+.ringclass{
+    
+    position: absolute;
+    width: 530px;
+    height: 129px;
+    overflow: hidden;
+    background-color: transparent;
+    margin-left: 650px;
+    margin-top: 300px;
+}
+#ring2{
+    width: 500px;
+    height: 120px;
+    margin-left: 70px;
+    transform: translateX(50%);
+    background-color: transparent;
+}
+
+.secondPart{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1110px;
+    height: 327px;
+    align-items: center;
+    margin-left: 165px;
+    
+    padding-top: 14px;    
+}
+
+.secondPart p{
+    font-family: 'Space Grotesk';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -1.5px;
+}
+
+
+.html, .css, .javascript, .react, .sass, .access{
+    display: flex;
+    width: 345px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 14px;
+    margin-top: 58px;
+    
+}
+
+.secondPart span{
+    color: #D9D9D9;
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+}
+
+/* Projects */
+
+.projects{
+    width: 1110px;
+    height: 1767px;
+    margin-top: 140px;
+    
+    margin-left: 165px;
+}
+.context{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 80px; */
+}
+
+.projectImages{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;  
+    margin-top: 70px; 
+}
+
+.projectImages img{
+    width: 540px;
+    height: 400px;
+}
+
+#proText{
+    width: 334px;
+    height: 88px;
+    font-family: 'Space Grotesk';
+    color: white;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px; /* 100% */
+    letter-spacing: -2.5px;
+    
+}
+
+#contactMe{
+    width: 120px;
+    height: 26px;
+    color: #FFF;
+    font-family: 'Space Grotesk';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 2.286px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #4EE1A0;
+    
+}
+/* Margin from top between Images */
+.topMargin{
+    margin-top: 40px;
+}
+
+.projectNames{
+    font-family: 'Space Grotesk';
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.language{
+    font-family: 'Space Grotesk';
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 7px;
+}
+
+/* Footer */
+footer{
+    width: auto;
+    height: 675px;
+    padding-top: 20px;
+    margin-top: 80px;
+    background-color: #242424;
+}
+
+.contact{
+    width: 445px;
+    height: 208px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 165px;
+    margin-top: 80px;
+    background-color: transparent;
+    
+}
+
+#contact1{
+    color: #FFF;
+    font-family: 'Space Grotesk';
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: -2.5px;
+    background-color: transparent;
+}
+
+#textContact{
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    background-color: transparent;
+}
+
+.fields{
+    display: flex;
+    flex-direction: column;
+    width: 445px;
+    margin-left: 820px;
+    position: absolute;
+    top: 3250px;
+    background-color: transparent;
+}
+
+.fname{
+    width: 445px;
+    height: 43px;
+    border-bottom: 1px solid #4EE1A0;
+    background-color: transparent;
+}
+.fname input{
+    color: #FFF;
+    font-family: 'Space Grotesk';
+    height: 26px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.222px;
+    padding: 0px 0px 17px 24px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+}
+
+.femail{
+    width: 445px;
+    height: 64px;
+    margin-top: 32px;
+    border-bottom: 1px solid #4EE1A0;
+    background-color: transparent;
+    
+}
+#fEmail{
+    color: #FFF;
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+    letter-spacing: -0.222px;
+    width: 190px;
+    height: 26px;
+    padding: 0px 0px 38px 24px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    
+}
+.fmessage{
+    width: 445px;
+    height: 107px;
+    margin-top: 11px;
+    border-bottom: 1px solid #4EE1A0;
+    background-color: transparent;
+}
+#fMessage{
+    height: 26px;
+    padding: 0px 0px 0px 24px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+/* .line{
+    width: 445px;
+    height: 1px;
+} */
+
+.button1{
+    margin-top: 32px;
+    width: 160px;
+    height: 38px;
+    margin-left: 285px;
+    border: none;  
+    border-bottom: 2px solid #4EE1A0;
+    background-color: transparent; 
+    
+}
+
+.button1 button{
+    color: #4EE1A0;
+    font-family: 'Space Grotesk';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2.286px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.ringsFooter{
+    margin: 35px 0px 0px -210px;
+    width: 530px;
+    height: 100px;
+    background-color: transparent;
+}
+
+.footerLine{
+    width: 1110px;
+    height: 1px;
+    background-color: white;
+    margin: 80px 0px 0px 165px;
+    
+}
+
+.nameIcons{
+    width: 1110px;
+    height: 32px;
+    margin: 47px 0px 0px 165px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+
+.lastName{
+    font-family: 'Space Grotesk';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 100% */
+    letter-spacing: -0.444px;
+    background-color: transparent;
+}
+
+.lastImages img{
+    margin:0px 0px 0px 30px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.error{
+    position: absolute;
+    color: #FF6F5B;
+    font-family: 'Space Grotesk';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: -0.167px;
+    background-color: transparent;
+}
+
+#Error1{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+#Error2{
+    margin-top: 70px;
+    margin-left: 90px;
+}
+#Error3{
+    margin-top: 110px;
+    margin-left: 60px;
+}
